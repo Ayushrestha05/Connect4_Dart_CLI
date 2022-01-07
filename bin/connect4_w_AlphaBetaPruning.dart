@@ -291,8 +291,7 @@ void main(List<String> arguments) {
   // Initialize a flag that checks if the game is over
   bool gameOver = false;
   //Generates a random number between 0 and 1, to see who goes first
-  // int turn = Random().nextInt(2);
-  int turn = 0;
+  int turn = Random().nextInt(2);
   while (!gameOver) {
     // Player's Turn
     if (turn == playerTurn) {
